@@ -1,0 +1,19 @@
+:root {
+    --background: #272727;
+    --text: white;
+    --linktext: #007bff;
+    --linkhover: #0056b3;
+}
+
+a {
+    color: var(--linktext);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--linkhover);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
